@@ -3,5 +3,5 @@ __pycache__
 /venv/*
 /.idea/*
 /misc/*
-testbench.py
+testbench_*.py
 /*.egg-info/*
