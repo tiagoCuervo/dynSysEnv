@@ -36,7 +36,7 @@ class DynamicalSystem(gym.Env):
             done = True
         else:
             done = False
-        return self.state, reward, done, None
+        return self.state, reward, done, {'episode': None}
 
     def reset(self):
         self.state = self.system.initialize()
